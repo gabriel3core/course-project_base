@@ -35,16 +35,16 @@
     padding: 0px;
 }
 
-body{
+body {
     background-color: var(--cor0);
     font-family: var(--font-normal);
 }
 
-a.external::after{
+a.external::after {
     content: '\1F517';
 }
 
-header{
+header {
     background-color: var(--cor4);
     min-height: 150px;
     text-align: center;
@@ -52,7 +52,7 @@ header{
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
 }
 
-header > h1{
+header>h1 {
     color: white;
     font-family: var(--font-detach);
     margin-bottom: 20px;
@@ -61,7 +61,7 @@ header > h1{
     font-weight: normal;
 }
 
-header > p{
+header>p {
     color: white;
     font-family: var(--font-normal);
     font-size: 1.2em;
@@ -69,17 +69,17 @@ header > p{
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     text-shadow: 2px 0px rgba(0, 0, 0, 0.267);
 }
 
-nav{
+nav {
     background-color: var(--cor5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
 
-nav > a{
+nav>a {
     color: var(--cor1);
     padding: 10px;
     text-decoration: none;
@@ -89,12 +89,12 @@ nav > a{
 
 }
 
-nav > a:hover{
+nav>a:hover {
     background-color: var(--cor3);
     color: var(--cor5);
 }
 
-main{
+main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
@@ -106,14 +106,14 @@ main{
     border-bottom-right-radius: 10px;
 }
 
-main h1{
+main h1 {
     color: var(--cor5);
     font-family: var(--font-android);
     font-weight: normal;
     font-size: 1.8em;
 }
 
-main h2{
+main h2 {
     font-family: var(--font-android);
     color: var(--cor4);
     font-size: 1.3em;
@@ -130,12 +130,12 @@ main p {
     font-size: 1em;
 }
 
-main strong{
+main strong {
     color: var(--cor4);
     font-weight: bold;
 }
 
-main a{
+main a {
     text-decoration: none;
     font-weight: bold;
     color: var(--cor5);
@@ -143,23 +143,23 @@ main a{
     padding: 2px 6px;
 }
 
-main a:hover{
+main a:hover {
     text-decoration: underline;
     color: var(--cor4);
 
 }
 
-main img{
+main img {
     width: 100%;
 }
 
-main img.small{
+main img.small {
     max-width: 350px;
     margin: auto;
     display: block;
 }
 
-div.video{
+div.video {
     background-color: var(--cor5);
     margin-bottom: 30px;
     margin-top: 0 -20px 30px -20px;
@@ -169,7 +169,7 @@ div.video{
     position: relative;
 }
 
-div.video > iframe{
+div.video>iframe {
     position: absolute;
     top: 5%;
     left: 5%;
@@ -177,13 +177,13 @@ div.video > iframe{
     height: 90%;
 }
 
-aside{
+aside {
     background-color: var(--cor1);
     padding: 10px;
     border-radius: 10px;
 }
 
-aside > h3{
+aside>h3 {
     background-color: var(--cor4);
     color: white;
     padding: 10px;
@@ -191,13 +191,13 @@ aside > h3{
     border-radius: 10px 10px 0px 0px;
 }
 
-aside > ul{
+aside>ul {
     list-style-type: '\2714\00A0';
     list-style-position: inside;
     columns: 2;
 }
 
-footer{
+footer {
     background-color: var(--cor5);
     color: white;
     text-align: center;
@@ -205,13 +205,13 @@ footer{
     padding: 5px;
 }
 
-footer a{
+footer a {
     color: white;
     font-weight: bolder;
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: underline;
     color: var(--cor1)
 }
